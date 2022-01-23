@@ -1,0 +1,37 @@
+assume 'app' is the name of your build
+> indicates terminal commands
+
+to build:
+docker build -t app .
+
+
+test on local: 
+docker run -p 8888 app
+
+
+Check:
+localhost:8888
+
+
+GCP:
+(use gcloud sdk for >)
+    -Container Registry
+        >gcloud auth login
+        >docker tag app gcr.io/prjct-name-1234/app
+        >docker push app gcr.io/prjct-name-1234/app
+        [Copy url in container] registry=>Images=>click on Image=> gcr.io/prjct-name-1234/app [copy to clip symbol]
+
+    -Cloud Run
+        Create Service:
+        [name]=>
+        [region]=>
+        [Select Container Image URL -r pop out-]=>
+        [Advanced: Container Port 80? -possibly not-]
+        [Ingress: allow all]
+        [Authentication: Allow unauthenticated invocations]
+        ~Create~
+
+
+
+
+
