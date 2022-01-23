@@ -1,3 +1,8 @@
+set environment variables in docker:
+docker run -e MYSECRET --en MYSECRET=foo --env-file ./env.list ubuntu bash
+
+############################################################################
+
 assume 'app' is the name of your build
 > indicates terminal commands
 
