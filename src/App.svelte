@@ -16,7 +16,7 @@ a {
 <HowTo />
 
 <h3>
-	<a href="https://www.who.int/gpsc/clean_hands-protection/en/">Picture Source</a>
+	<a href="https://www.who.int/gpsc/clean_hands-protection/en/">Picture Source</a> |
 	<a href="https://freesound.org/people/metrostock99/sounds/345086/">Sound Source</a>
 </h3>
 
